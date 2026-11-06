@@ -12,7 +12,7 @@ int main()
         if (binary[mid]== target){
             cout << binary[mid] << endl;
             break;
-        } else if (binary[mid]<target){
+        } else if (binary[mid]<target ){
             st= mid+1;
         } else {
             end = mid-1;
