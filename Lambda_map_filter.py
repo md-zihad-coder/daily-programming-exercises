@@ -18,6 +18,6 @@ number = [2,4,6,9,13,34,19,10,30,25]
 cal_number= list(filter(lambda x : x %2==0 , number))
 print(cal_number)
 cal_number.sort()
-print("Your filter fungtion answer is : ",cal_number)
+print("Your filter fungtion answer is : ", cal_number)
 
 
