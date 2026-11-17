@@ -1,0 +1,26 @@
+class Solution {
+public:
+    int countConsistent(vector<int>& nums) {
+       
+        int n=nums.size();
+        int count =0;
+        for(int i = 0;i<nums.size();i++){
+            int a=nums[i];
+            int m= nums[i];
+            for(int j=i; j<nums.size();j++){
+                a=a & nums[j];
+                m=min(m,nums[j]);
+            if(a==m){
+                count++;
+            }
+                
+              
+                
+                
+            }
+        }
+        return count ;
+        
+        
+    }
+};©leetcode
